@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+
+  marty:
+    image: container_day_marty:latest
+    ports:
+      - 8080:8080

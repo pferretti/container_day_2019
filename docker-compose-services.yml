@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+
+  database:
+    image: postgres:12.0-alpine
+    volumes:
+      - ./postgres:/docker-entrypoint-initdb.d
